@@ -7,6 +7,9 @@ def nyc_pigeon_organizer(data)
       if !new_array[name]
         new_array[name] = {}
       end
+      if !new_array[name][k]
+        !new_array[name][k] = {}
+      end
     end
   end
 end
