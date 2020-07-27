@@ -1,3 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  data.each_with_object({}) do |(k, v), new_array| new_array
+end
 end
