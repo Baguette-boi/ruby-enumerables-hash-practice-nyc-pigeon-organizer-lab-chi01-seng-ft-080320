@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   v.each do |inner_k, names| 
     
     names.each do |name|
+      if !new_array[name]
       end
     end
   end
