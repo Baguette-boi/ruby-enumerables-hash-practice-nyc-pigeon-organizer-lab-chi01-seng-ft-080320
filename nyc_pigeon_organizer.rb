@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   v.each do |inner_k, names| 
     
     names.each do |name|
+      end
     end
-end
-end
+  end
 end
