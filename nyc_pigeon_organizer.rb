@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
       if !new_array[name][k]
         !new_array[name][k] = {}
       end
+      new_array[name][k].push{inner_k}
+      end
     end
   end
 end
